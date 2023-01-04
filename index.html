@@ -5,8 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html and more css</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hellow World</h1>
-</body>
+    <h1>Welcome to Jamal er Ma er pitha ghor</h1>
+    <label for="name">Your Name
+        <input type="text" id="name" placeholder="Your name">
+    </label>
+    <label for="email">
+        Your Email
+        <input type="email" placeholder="Your Enail">
+    </label>
+    <fieldset class="pitha">
+        <legend>Choice Your pitha</legend>
+        <label for="chitoi">
+            <input type="radio" name="pitha" id="chitoi">
+            Chitoi Pitha
+        </label>
+        <label for="Vapa">
+            <input type="radio" name="pitha" id="Vapa">
+            Vapa Pitha
+        </label>
+        <label for="TelerPitha">
+            <input type="radio" name="pitha" id="TelerPitha">
+            Teler Pitha
+        </label>
+    </fieldset>
+
+    <fieldset class="vorta">
+        <legend>Choice Your Vorta</legend>
+        <label for="Mac">
+            <input type="checkbox" name="vorta" id="Mac">
+            Mac Vorat
+        </label>
+        <label for="sorisha">
+            <input type="checkbox" name="vorta" id="sorisha">
+            Sorisha Vorat
+        </label>
+        <label for="begun">
+            <input type="checkbox" name="vorta" id="begun">
+            Begun Vorat
+        </label>
+    </fieldset>
+    <fieldset class="instruction">
+        <legend>Special Instruction</legend>
+        <textarea name="" id="" cols="80" rows="3"></textarea>
+    </fieldset>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+</body> 
 </html>
